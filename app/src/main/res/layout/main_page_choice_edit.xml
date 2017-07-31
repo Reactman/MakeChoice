@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:divider="@drawable/divider"
+                android:showDividers="middle">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/dd"
+                  android:background="@color/colorAccent">
+        <LinearLayout
+                android:id="@+id/option_add"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:onClick="onClick">
+
+            <ImageView
+                    android:id="@+id/icon_shake_choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_add_default_24dp" />
+
+            <TextView
+                    android:id="@+id/text_shake_choice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Option"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/choiceList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>

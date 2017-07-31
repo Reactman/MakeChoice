@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MakeChoice</string>
+    <string name="action_settings_author">author</string>
+    <string name="action_settings_help">help</string>
+    <string name="option_add">New Option</string>
+</resources>

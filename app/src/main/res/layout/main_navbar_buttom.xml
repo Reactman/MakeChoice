@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:divider="@drawable/divider"
+                android:showDividers="beginning">
+    <LinearLayout
+            android:id="@+id/bottomBar_shake"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+        <ImageView
+                android:id="@+id/icon_shake_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_rotation_default_24dp" />
+
+        <TextView
+                android:id="@+id/text_shake_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shake"
+                android:textColor="#CFCFCF"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/bottomBar_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+        <ImageView
+                android:id="@+id/icon_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_edit_default_24dp" />
+
+        <TextView
+                android:id="@+id/text_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textColor="#CFCFCF"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/bottomBar_help"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+        <ImageView
+                android:id="@+id/icon_help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_help_default_24dp" />
+
+        <TextView
+                android:id="@+id/text_help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help"
+                android:textColor="#CFCFCF"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/bottomBar_author"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+        <ImageView
+                android:id="@+id/icon_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_author_default_24dp" />
+
+        <TextView
+                android:id="@+id/text_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author"
+                android:textColor="#CFCFCF"
+                android:textStyle="bold" />
+    </LinearLayout>
+    <!--android:textColor="#1B940A"-->
+</LinearLayout>

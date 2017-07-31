@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.visionet.makechoice.HomeActivity" >
+    <item android:id="@+id/author"
+        android:title="@string/action_settings_author"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+    />
+
+    <item android:id="@+id/help"
+          android:icon="@mipmap/ic_launcher"
+          android:title="@string/action_settings_help"
+          android:orderInCategory="100"
+          app:showAsAction="never"
+    />
+</menu>
